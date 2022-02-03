@@ -7,7 +7,7 @@
      
         {%- if block.settings.text != blank -%}
           {%- if block.settings.link != blank -%}
-            <a href="{{ block.settings.link }}">
+            <a href="{{ block.settings.link }}" style="color: {{ block.settings.announcement_text_color }};">
           {%- endif -%}
                 {{ block.settings.text | escape }}
 
