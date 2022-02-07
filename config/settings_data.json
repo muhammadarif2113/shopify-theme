@@ -7,9 +7,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
-              "background_color": "#605e7d",
-              "announcement_text_color": "#FFFFFF",
+              "text": "Top of the Line Security",
+              "background_color": "#c6c6c6",
+              "announcement_text_color": "#000000",
               "link": ""
             }
           }
