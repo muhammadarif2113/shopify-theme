@@ -1,129 +1,50 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "1644217311f20f5870": {
+      "type": "hero-one",
       "blocks": {
-        "heading": {
+        "1644217311cab884c8-0": {
           "type": "heading",
           "settings": {
-            "heading_size": "large"
+            "title": "Secure Home"
           }
         },
-        "text": {
-          "type": "text"
-        },
-        "button": {
-          "type": "buttons",
+        "1644217311cab884c8-1": {
+          "type": "paragraph",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": ""
+            "paragraph": "Staying home or venturing out, nobody has more ways to help keep you safe than ADT, with 9 company-owned monitoring centers watching out for you 24\/7.",
+            "pa_alignment": "center"
+          }
+        },
+        "1644217311cab884c8-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "shopify:\/\/collections\/all"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "1644217311cab884c8-0",
+        "1644217311cab884c8-1",
+        "1644217311cab884c8-2"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading"
-        },
-        "text": {
-          "type": "text"
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "collection": "all",
-        "products_to_show": 8,
-        "show_view_all": false,
-        "show_secondary_image": true,
-        "padding_top": 28
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection"
-        },
-        "product": {
-          "type": "product"
-        },
-        "collection-1": {
-          "type": "collection"
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ]
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": ""
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column"
-        },
-        "column2": {
-          "type": "column"
-        },
-        "column3": {
-          "type": "column"
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "",
-        "image_width": "third",
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": ""
+        "image": "shopify:\/\/shop_images\/white-camera.jpg",
+        "background": "#000000",
+        "opacity": 50,
+        "info_alignment": "right",
+        "desktop_image_width": "medium",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "image_banner",
-    "rich_text",
-    "featured_collection",
-    "collage",
-    "video",
-    "multicolumn"
+    "1644217311f20f5870"
   ]
 }
