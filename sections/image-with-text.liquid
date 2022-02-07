@@ -1,4 +1,4 @@
-{{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
+{% comment %} {{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -415,4 +415,4 @@
     }
   ]
 }
-{% endschema %}
+{% endschema %} {% endcomment %}
