@@ -328,18 +328,6 @@ table {
     margin-bottom: 2rem
 }
 
-.hero1__paragraph--aligned-center{
-    text-align: center;
-}
-
-.hero1__paragraph--aligned-right{
-    text-align: right;
-}
-
-.hero1__paragraph--aligned-left{
-    text-align: left;
-}
-
 .hero1__button {
     padding: 15px 30px;
     background: #fff;
